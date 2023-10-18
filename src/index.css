@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+:root {
+  --pink: #ff385c;
+}
+@media (max-width: 745px) {
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h6,
+  h5 {
+    font-size: 85%;
+  }
+  * {
+    overflow: hidden;
+  }
+}
