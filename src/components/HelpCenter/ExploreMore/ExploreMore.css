@@ -1,0 +1,34 @@
+.exploremore-head {
+  background-color: black;
+  height: 500px;
+  width: 100%;
+}
+.exploremore-heading {
+  color: #fff;
+  padding-top: 2rem;
+}
+.exploremore-boxs {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+.exploremore-box {
+  width: 30%;
+  color: #fff;
+  border-radius: 16px;
+}
+.exploremore-img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+.exploremore-bg {
+  padding: 1rem 1rem 1.5rem 1rem;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  height: 30%;
+  background-color: rgb(34, 34, 34);
+}

@@ -1,0 +1,75 @@
+.help-travel-app {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.help-travel-nav {
+  border-bottom: 1px solid #d2d0d0;
+  width: 100%;
+}
+.help-travel-list-items {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+}
+.help-travel-list {
+  list-style: none;
+  margin: 0 1rem 0 0;
+  padding: 1rem 0.6rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  &:hover {
+    border-bottom: 2px solid black;
+  }
+  &:focus {
+    border-bottom: 2px solid black;
+  }
+}
+
+/* travel box styling */
+.travel-img-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.travel-box {
+  display: flex;
+  justify-content: space-between;
+}
+.travel-img-box {
+  width: 225px;
+  height: 250px;
+  /* border: 2px solid saddlebrown; */
+  display: flex;
+  flex-direction: column;
+}
+.travel-img {
+  border-radius: 16px;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border: none;
+}
+.travel-img-heading {
+  margin-bottom: 1rem;
+}
+/* Top Article styling */
+
+.article-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+.article-box {
+  width: 30%;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #d2d0d0;
+}
+.article-heading {
+  text-decoration: underline;
+}
+.article-para {
+  color: rgb(113, 113, 113);
+}

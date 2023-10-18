@@ -1,0 +1,28 @@
+.help-login-sug {
+  margin: 3rem 0;
+}
+.help-login-sug-boxs {
+  display: flex;
+  border: 1px solid rgb(205, 205, 205);
+  padding: 1rem 2rem;
+  width: 100%;
+  border-radius: 10px;
+}
+.help-login-sug-div {
+  width: 50%;
+}
+.help-login-sug-box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.help-login-sug-btn {
+  font-size: 1rem;
+  border-radius: 10px;
+  background-color: var(--pink);
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  width: 90%;
+  padding: 0.5rem 0;
+}

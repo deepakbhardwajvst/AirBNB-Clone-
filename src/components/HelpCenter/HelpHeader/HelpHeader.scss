@@ -1,0 +1,79 @@
+.help-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.help-head-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.help-logo {
+  margin: 1rem 0 0 2rem;
+  display: flex;
+  justify-content: flex-start;
+}
+.help-image {
+  margin-right: 0.5rem;
+  height: 2.5rem;
+  color: #000;
+}
+.help-heading {
+  font-weight: 700;
+  padding-top: 0.5rem;
+  cursor: pointer;
+}
+.help-profile {
+  margin: 1rem 2rem 0 0;
+}
+// Search Styling
+.help-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem 0;
+}
+.help-search-heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.help-search-bar {
+  display: flex;
+  border-radius: 30px;
+  background-color: #f0eded;
+
+  &:hover {
+    background-color: #dfdddd;
+  }
+}
+.help-search-input {
+  border-radius: 30px;
+  background-color: transparent;
+  color: #000;
+  height: 4rem;
+  width: 20rem;
+  border: none;
+  padding: 2rem;
+  &:focus {
+    outline: none;
+  }
+}
+
+.help-search-input::placeholder {
+  color: #000;
+  font-weight: 500;
+}
+.search-logo-btn {
+  margin-right: 1rem;
+  border-radius: 20px;
+  border: none;
+  background-color: transparent;
+}
+.search-logo-div1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--pink);
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+}
