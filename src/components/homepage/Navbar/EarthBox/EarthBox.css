@@ -1,0 +1,127 @@
+.EarthBox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-btn:hover {
+  cursor: pointer;
+}
+.EarthBox-content {
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 20px 0 20px 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  width: 745px;
+  height: 875px;
+  max-height: 90%;
+  overflow: auto;
+}
+.search-box-nav {
+  display: flex;
+  text-align: center;
+}
+.search-box-language-and-region,
+.search-box-currency {
+  margin: 6px 2rem 6px 0;
+  padding: 10px;
+  cursor: pointer;
+  color: rgb(113, 113, 113);
+}
+.search-box-language-and-region:hover,
+.search-box-currency:hover {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+}
+.search-box-active {
+  border-bottom: 2px solid black;
+  color: black;
+}
+.hr {
+  margin: 0;
+}
+#search-box-translation-main {
+  width: 550px;
+  background-color: #f7f7f7;
+}
+#form-id {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border: none;
+  height: 5rem;
+  padding: 1rem;
+}
+div.search-box-div {
+  margin: 3rem 0 0 0;
+  background-color: #f7f7f7;
+}
+#flexSwitchCheckDefault {
+  position: absolute;
+  margin-top: 3.5%;
+  right: 20px;
+  display: flex;
+  justify-content: end;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  transform: scale(2);
+}
+.search-box-items {
+  min-height: 400px;
+  max-height: 840px;
+}
+
+.search-box-translation,
+.search-box-para {
+  margin: 0;
+}
+.search-box-suggestion {
+  margin-bottom: 2rem;
+}
+.search-box-suggestion-heading {
+  margin: 2rem 1rem 1rem 1rem;
+}
+.search-box-suggestion-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 1rem;
+}
+.search-box-suggestion-item {
+  margin: 0 1rem 0 0;
+  padding: 0.5rem;
+  width: 200px;
+  border-radius: 10px;
+}
+.search-box-suggestion-item:hover {
+  background-color: #f7f7f7;
+}
+.Search-box-suggestion-lang {
+  margin: 0 0 0 0;
+}
+.o {
+  opacity: 0.7;
+}
+.search-box-choose-language {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/* CURRENCY STYLING */
+.currency-heading {
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+  margin: 1.5rem;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}

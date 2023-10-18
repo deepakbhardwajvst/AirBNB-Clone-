@@ -1,0 +1,29 @@
+.cards-head-link {
+  color: #000;
+  text-decoration: underline;
+}
+.cards-head-rating,
+.cards-head-s {
+  font-size: 0.9rem;
+}
+.Cards-review-span {
+  font-weight: 500;
+  cursor: pointer;
+}
+.cards-head-detail {
+  display: flex;
+  justify-content: space-between;
+}
+.cards-head-share,
+.cards-head-save {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0.3rem 0.4rem;
+}
+.cards-head-share:hover,
+.cards-head-save:hover {
+  background-color: #f7f7f7;
+  border-radius: 7px;
+}

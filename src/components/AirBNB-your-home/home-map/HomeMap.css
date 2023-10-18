@@ -1,0 +1,47 @@
+.ayh-map-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ayh-map-heading {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 10rem;
+  text-align: center;
+}
+
+@media (max-width: 1237px) {
+  .ayh-map-heading {
+    width: 100%;
+  }
+  .ayh-map-section {
+    justify-content: center;
+  }
+  .ayh-map-div {
+    display: flex;
+    width: 92%;
+    align-items: center;
+  }
+}
+.ayh-map-Airbnb-it {
+  color: var(--pink);
+  font-size: 3rem;
+}
+.ayh-map-para {
+  font-size: 3rem;
+}
+.ayh-map-price {
+  font-size: 4rem;
+}
+.ayh-map-price-estimate,
+.ayh-map-learn-calculate {
+  color: rgb(117, 116, 116);
+}
+
+#ayh-map-price-estimate-u {
+  color: black;
+}
+.ayh-map-div {
+  margin-top: 8rem;
+}

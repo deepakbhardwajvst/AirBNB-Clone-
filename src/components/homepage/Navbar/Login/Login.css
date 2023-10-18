@@ -1,0 +1,70 @@
+.login-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-overlay .login-content {
+  border-radius: 15px;
+  background-color: #fff;
+  width: 568px;
+  height: 632px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  max-height: 90%;
+  overflow: auto;
+}
+.login-overlay .login-close-btn:hover {
+  cursor: pointer;
+}
+.login-overlay .login-box-close {
+  display: flex;
+  justify-content: space-between;
+}
+.login-overlay .login-heading {
+  margin: 1.5rem 0;
+}
+.login-overlay .login-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.login-overlay .login-tab {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 8px;
+}
+.login-overlay .login-box-submit {
+  background-color: var(--pink);
+  border: none;
+  color: #fff;
+  font-weight: 500;
+}
+.login-overlay .login-email {
+  border: 1px solid rgb(192, 189, 189);
+}
+.login-overlay .hr-line {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.login-overlay .hr-line .hr-width {
+  width: 45%;
+}
+.login-overlay .hr-line .hr-or {
+  font-size: 12px;
+  margin: 5px 0;
+}
+.login-overlay .login-signup {
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+.login-overlay .login-way-heading-fb {
+  margin-left: 0.5rem;
+}/*# sourceMappingURL=Login.css.map */

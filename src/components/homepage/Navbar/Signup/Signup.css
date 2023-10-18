@@ -1,0 +1,10 @@
+.signup-content {
+  border-radius: 15px;
+  background-color: #fff;
+  width: 568px;
+  height: 732px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  max-height: 90%;
+  overflow: auto;
+}

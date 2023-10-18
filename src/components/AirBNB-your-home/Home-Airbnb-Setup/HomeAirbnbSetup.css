@@ -1,0 +1,36 @@
+.ayh-setup {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.ayh-setup-heading-h1 {
+  margin-bottom: 2rem;
+}
+.ayh-setup-img {
+  max-width: 1200px;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+.ayh-setup-items {
+  display: flex;
+}
+@media (max-width: 1130px) {
+  .ayh-setup-items {
+    flex-direction: column;
+  }
+  .ayh-setup-item {
+    margin: 1rem;
+  }
+  .ayh-setup-item-head {
+    margin-bottom: 0.4rem;
+  }
+}
+.ayh-setup-item {
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.ayh-setup-item-para {
+  color: rgb(130, 130, 130);
+}

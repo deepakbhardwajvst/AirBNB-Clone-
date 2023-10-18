@@ -1,0 +1,66 @@
+.aircover-table {
+  max-width: 848px;
+  margin: 0 auto;
+}
+.aircover-head-img {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0 1.5rem 0;
+}
+.aircover-head-image {
+  width: 180px;
+  height: 66px;
+}
+.aircover-heading {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.aircover-thead {
+  border-bottom: 1px solid rgb(194, 192, 192);
+}
+table {
+  width: 100%;
+}
+.aircover-th1 {
+  width: 50%;
+}
+.aircover-th2 {
+  width: 25%;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.aircover-tb-tr {
+  border-top: 2px solid rgba(233, 231, 231, 0.866);
+}
+.aircover-tb-th {
+  padding: 1rem 0;
+}
+.aircover-tb-td1 {
+  padding-bottom: 1rem;
+}
+.aircover-cross {
+  color: red;
+  font-size: 1.8rem !important;
+}
+.aircover-check {
+  color: green;
+  font-size: 1.8rem !important;
+}
+.aircover-paragraph {
+  border-top: 2px solid rgba(233, 231, 231, 0.866);
+  padding-top: 1rem;
+}
+.aircover-div-button {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 4rem 0;
+}
+.aircover-button {
+  background-color: #fff;
+  padding: 5px 11px;
+  border-radius: 10px;
+  border: 1px solid rgb(34, 34, 34);
+}
+.aircover-button:hover {
+  background-color: #f7f7f7;
+}

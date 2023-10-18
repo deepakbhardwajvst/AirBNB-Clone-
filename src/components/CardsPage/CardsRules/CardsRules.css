@@ -1,0 +1,26 @@
+.rules-heading {
+  margin-top: 2.5rem;
+}
+.rules-box {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.rules-boxs {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 30%;
+}
+.rules-head {
+  font-weight: 500;
+  margin: 0.4rem 0;
+}
+.rules-para {
+  margin: 0.4rem 0;
+}
+.rules-u {
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+}

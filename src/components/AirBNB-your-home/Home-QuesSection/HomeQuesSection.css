@@ -1,0 +1,51 @@
+.ques {
+  background-color: rgb(247, 247, 247);
+  padding: 3rem 0;
+}
+.ques-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1205px;
+  margin: 0 auto;
+}
+.ques-heading {
+  width: 50%;
+}
+.ques-section2 {
+  width: 50%;
+}
+
+.ques-toggle-button {
+  display: flex;
+}
+.ques-place-info {
+  max-height: 2000px;
+  overflow: hidden;
+  transition: max-height 2s ease-in-out; /* Adjust the duration to 2 seconds */
+}
+
+.ques-place-info.active {
+  height: auto; /* This allows the content to determine the height */
+}
+@media (max-width: 1120px) {
+  .ques-container {
+    flex-direction: column;
+  }
+  .ques-heading {
+    width: 92%;
+  }
+  .ques-section2 {
+    width: 92%;
+  }
+  .ques-toggle-button {
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+  .ques-heading-text {
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+  }
+  .ques-toggle-button-text {
+    font-weight: 400;
+  }
+}
